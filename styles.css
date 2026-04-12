@@ -1,9 +1,9 @@
 :root {
   --branding-color: #55dce6;
   --font-color: lightgrey;
-  --h2-size: 2rem;
+  --h2-size: 1.7rem;
   --h2-size-mobile: 1.5rem;
-  --p-size: 1.12rem;
+  --p-size: 0.95rem;
   --p-size-mobile: 0.93rem;
   --title-font: "Epilogue", sans-serif;
   --p-font: "Sora", sans-serif;
@@ -127,7 +127,7 @@ body {
 
 .outer-headings {
   font-family: var(--p-font);
-  padding-left: 6rem;
+  padding-left: 5rem;
   padding-top: 13rem;
   justify-content: center;
   color: var(--branding-color);
@@ -135,7 +135,7 @@ body {
 }
 
 .outer-headings h2 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 200;
 }
 
@@ -144,7 +144,7 @@ body {
   color: white;
   font-weight: 700;
   font-style: normal;
-  font-size: 11rem;
+  font-size: 9rem;
   margin: 1.5rem 0 0 0;
 }
 
@@ -153,7 +153,7 @@ body {
   color: white;
   font-weight: 700;
   font-style: normal;
-  font-size: 13rem;
+  font-size: 11rem;
   margin: -1.5rem 0 0 0;
 }
 
@@ -404,7 +404,7 @@ body {
 .skills-second-column span {
   font-family: var(--p-font);
   font-weight: 300;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
 }
 
 @media (max-width: 1200px) {
@@ -494,22 +494,23 @@ body {
 
 .image {
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   object-fit: cover;
-  object-position: center;
   height: 20rem;
   border-radius: 1rem;
 }
 
 .image1 {
-  background-image: url("/Work-Images/work-placeholder.webp");
+  background-image: url("/p2-web-dev-portfolio/Work-Images/work-placeholder.webp");
 }
 .proj-1 {
-  background-image: url("/Work-Images/p1-img.jpg");
+  background-image: url("/p2-web-dev-portfolio/Work-Images/p1-img.jpg");
 }
 
 .title {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 1.75rem;
   font-weight: 700;
   font-style: var(--title-font);
@@ -520,7 +521,7 @@ body {
   margin-top: 0.5rem;
   font-family: var(--p-font);
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: var(--font-color);
   margin: 0.5rem;
 }
