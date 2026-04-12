@@ -493,16 +493,18 @@ body {
 }
 
 .image {
+  background-size: cover;
   object-fit: cover;
-  width: 100%;
   object-position: center;
   height: 20rem;
-  background-color: lightgrey;
   border-radius: 1rem;
 }
 
 .image1 {
-  background-image: url("/Work-Images/work-placeholder.webp");
+  background-image: url("/p2-web-dev-portfolio/Work-Images/work-placeholder.webp");
+}
+.proj-1 {
+  background-image: url("/p2-web-dev-portfolio/Work-Images/p1-img.jpg");
 }
 
 .title {
