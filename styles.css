@@ -21,7 +21,7 @@ body {
 
 /*-------------------------------------------*/
 /*----------------menu---------------------*/
-#nav-links {
+.nav-links {
   position: fixed;
   background-color: var(--font-color);
   opacity: 0.9;
@@ -32,11 +32,11 @@ body {
   padding-top: 5rem;
 }
 
-#nav-links.active {
+.nav-links.active {
   right: 0%;
 }
 
-#nav-links li {
+.nav-links li {
   list-style: none;
   font-family: var(--title-font);
   font-weight: 700;
@@ -47,16 +47,16 @@ body {
   margin-left: 3.125rem;
 }
 
-#nav-links a {
+.nav-links a {
   text-decoration: none;
   color: #212121;
 }
-#nav-links a:hover {
+.nav-links a:hover {
   text-decoration: none;
   color: var(--branding-color);
 }
 
-.header button.menuicon {
+#header button.menuicon {
   font-size: 2.5rem;
   color: var(--branding-color);
   position: fixed;
@@ -67,7 +67,7 @@ body {
   border: none;
 }
 
-#nav-links p {
+.nav-links p {
   font-family: var(--title-font);
   font-weight: 700;
   font-size: 1.25rem;
@@ -79,31 +79,31 @@ body {
 }
 
 @media (max-width: 1024px) {
-  #nav-links {
+  .nav-links {
     width: 50%;
   }
 }
 @media (max-width: 768px) {
-  #nav-links {
+  .nav-links {
     top: -100%;
     width: 100%;
     height: 30%;
     padding-top: 2rem;
   }
-  #nav-links.active {
+  .nav-links.active {
     top: 0%;
   }
-  .header button.menuicon {
+  #header button.menuicon {
     right: 0.9rem;
     top: 1.8rem;
     font-size: 1.8rem;
   }
 
-  #nav-links li {
+  .nav-links li {
     margin-top: 1rem;
     font-size: 0.9rem;
   }
-  #nav-links p {
+  .nav-links p {
     display: none;
   }
 }
@@ -502,7 +502,7 @@ body {
 }
 
 .image1 {
-  background-image: url("/Work-Images/work-placeholder.webp");
+  background-image: url("/p2-web-dev-portfolio/Work-Images/work-placeholder.webp");
 }
 
 .title {
